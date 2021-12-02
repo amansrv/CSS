@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    color: black;
+    background-color: wheat;
+}
+
+h1{
+    color: black;
+    background-color: cadetblue;
+    
+}
+p{
+    background-color: chartreuse;
+}
+table,tr,th,td{
+    width: 50%;
+    color: black;
+    border: 3px solid wheat;
+    text-align: center;
+}
+
+button{
+    /* box-sizing: border-box; */
+    background-color: tomato;
+    color: white;
+}
+
+form{
+    background-color: violet;
+    color: black;
+}
