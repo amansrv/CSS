@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-2</title>
+    <style>
+        .info {
+            display: grid;
+            border: 2px solid black;
+            row-gap: 50px;
+            column-gap: 10px;
+        }
+
+        .A {
+            border: 1px solid black;
+            border-collapse: collapse;
+            display: grid;
+            row-gap: 5px;
+            column-gap: 5px;
+            grid-template-columns: auto;
+            row-gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="info">
+            <div class="A">Lorem ipsum dolor sit amet.</div>
+            <div class="A">Lorem ipsum dolor sit amet.</div>
+            <div class="A">Lorem ipsum dolor sit amet.</div>
+            <div class="A">Lorem ipsum dolor sit amet.</div>
+        </section>
+
+    </main>
+    <footer></footer>
+</body>
+
+</html>

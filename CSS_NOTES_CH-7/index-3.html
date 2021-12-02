@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-3</title>
+    <style>
+        .infomain {
+            background-color: gold;
+            display: grid;
+            border: 3px solid red;
+            grid-template-columns: auto auto;
+            grid-row-gap: 50px;
+            grid-column-gap: 10px;
+        }
+
+        .info {
+            display: grid;
+            border: 3px solid red;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <!-- This is simple header -->
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- This is main body -->
+    <main>
+        <section class="infomain">
+            <div class="info">Lorem ipsum dolor sit amet.</div>
+            <div class="info">Lorem ipsum dolor sit amet.</div>
+            <div class="info">Lorem ipsum dolor sit amet.</div>
+            <div class="info">Lorem ipsum dolor sit amet.</div>
+        </section>
+    </main>
+    <!-- This is footer -->
+    <footer>
+        <p>this is footer &copy;amansrv007</p>
+    </footer>
+</body>
+
+
+</html>
