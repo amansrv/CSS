@@ -11,5 +11,5 @@
 * CH-6 : CSS Flexbox
 * CH-7 : CSS Grid & Media Queries
 * CH-8 : Transforms, Transitions & Animations
-* 
-<i> THANK YOU!</i>
+
+<i>THANK YOU!</i>
