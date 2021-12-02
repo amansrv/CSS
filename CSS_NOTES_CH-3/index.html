@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css boc model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            /* margin: 10px; */
+            padding: 10px;
+            color: black;
+            background-color: grey;
+            height: 100px;
+            text-align: left;
+            border: 2px solid black;
+            box-sizing: border-box;
+        }
+
+        .mainbody {
+            margin: 50px;
+            /* padding: 50px; */
+
+        }
+
+        #div1 {
+            color: black;
+            background-color: palevioletred;
+            padding: 50px;
+            border-width: 5px;
+            border-style: groove;
+        }
+
+        #div2 {
+            color: black;
+            background-color: silver;
+            border-width: 3px;
+            border-style: groove;
+        }
+
+        footer {
+            color: black;
+            background-color: gold;
+            border: 1px solid black;
+
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        body {
+            background-image: url('pic-1.jpg');
+            background-repeat: repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- This is my header component. -->
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Content</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- this is main component. -->
+    <main class="mainbody">
+        <section>
+            <div id="div1">
+                <h1>This Is Heading 1!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda nihil iste voluptas recusandae
+                    maxime ullam libero ad impedit perspiciatis consequuntur!</p>
+            </div>
+            <br>
+            <div id="div2">
+                <h1>This is Heading 2!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quam laborum quis incidunt est
+                    quas inventore facilis adipisci ipsam quia!</p>
+            </div>
+        </section>
+    </main>
+    <!-- This is footer. -->
+    <footer>
+        <p class="center">copyright &copy;amansrv@007</p>
+    </footer>
+</body>
+
+</html>
